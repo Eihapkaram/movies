@@ -163,7 +163,24 @@ h2 {
 .checked {
   color: orange;
 }
-#filminform {
+#terialphoto {
+  width: 80%;
+  height: 400px;
+}
+#informheader {
+  position: relative;
+  left: 400px;
+  color: #fff9f9;
+}
+span h4 {
+  color: brown;
+}
+h3,
+h2 {
+  color: rgb(243, 237, 237);
+}
+@media (max-width: 1366px) {
+  #filminform {
   display: flex;
   flex-flow: row, wrap;
   justify-content: center;
@@ -190,23 +207,6 @@ h2 {
 #listprant li {
   width: 100px;
 }
-#terialphoto {
-  width: 80%;
-  height: 400px;
-}
-#informheader {
-  position: relative;
-  left: 400px;
-  color: #fff9f9;
-}
-span h4 {
-  color: brown;
-}
-h3,
-h2 {
-  color: rgb(243, 237, 237);
-}
-@media (max-width: 1366px) {
 }
 /*/tablet/*/
 @media (max-width: 991px) {
